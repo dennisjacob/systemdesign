@@ -1,0 +1,13 @@
+# Ignore all files except Markdown (.md) and PDF (.pdf) documentation
+
+# Ignore everything
+*
+# Re-include directories (so git can traverse)
+!*/
+# Track all Markdown files
+!*.md
+!*.MD
+# Track all PDF files
+!*.pdf
+# Track this file
+!.gitignore
