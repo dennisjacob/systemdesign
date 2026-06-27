@@ -1,4 +1,4 @@
-# Ignore all files except Markdown (.md) and PDF (.pdf) documentation
+# Ignore all files except Markdown (.md), PDF (.pdf), and LICENSE documentation
 
 # Ignore everything
 *
@@ -11,3 +11,5 @@
 !*.pdf
 # Track this file
 !.gitignore
+# Track LICENSE file
+!LICENSE
